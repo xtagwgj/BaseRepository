@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--圆形头像-->
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="dimension"/>
+        <attr name="civ_border_color" format="color"/>
+        <attr name="civ_border_overlay" format="boolean"/>
+        <attr name="civ_fill_color" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="RxSeekBar">
+        <attr name="maxProgress" format="float"/>
+        <attr name="minProgress" format="float"/>
+        <attr name="reserve" format="float"/>
+        <attr name="cells" format="integer"/>
+        <attr name="hideProgressHint" format="boolean"/>
+        <attr name="isHintHolder" format="boolean"/>
+        <attr name="lineColorSelected" format="color"/>
+        <attr name="lineColorEdge" format="color"/>
+        <attr name="thumbPrimaryColor" format="color"/>
+        <attr name="thumbSecondaryColor" format="color"/>
+        <attr name="markTextArray" format="reference"/>
+        <attr name="seekBarResId" format="reference"/>
+        <!-- must use 9 path ！！！-->
+        <attr name="progressHintResId" format="reference"/>
+        <attr name="textPadding" format="dimension"/>
+        <attr name="textSize2" format="dimension"/>
+        <attr name="hintBGHeight" format="dimension"/>
+        <attr name="hintBGWith" format="dimension"/>
+        <attr name="hintBGPadding" format="dimension"/>
+        <attr name="seekBarHeight" format="dimension"/>
+        <attr name="thumbSize" format="dimension"/>
+        <attr name="cellMode" format="enum">
+            <enum name="number" value="0"/>
+            <enum name="other" value="1"/>
+        </attr>
+        <attr name="seekBarMode" format="enum">
+            <enum name="single" value="1"/>
+            <enum name="range" value="2"/>
+        </attr>
+
+    </declare-styleable>
+
+    <declare-styleable name="RoundTextView">
+        <attr name="rv_backgroundColor"/>
+        <attr name="rv_backgroundPressColor"/>
+        <attr name="rv_cornerRadius"/>
+        <attr name="rv_strokeWidth"/>
+        <attr name="rv_strokeColor"/>
+        <attr name="rv_strokePressColor"/>
+        <attr name="rv_textPressColor"/>
+        <attr name="rv_isRadiusHalfHeight"/>
+        <attr name="rv_isWidthHeightEqual"/>
+        <attr name="rv_cornerRadius_TL"/>
+        <attr name="rv_cornerRadius_TR"/>
+        <attr name="rv_cornerRadius_BL"/>
+        <attr name="rv_cornerRadius_BR"/>
+        <attr name="rv_isRippleEnable"/>
+    </declare-styleable>
+
+    <declare-styleable name="RoundLinearLayout">
+        <attr name="rv_backgroundColor"/>
+        <attr name="rv_backgroundPressColor"/>
+        <attr name="rv_cornerRadius"/>
+        <attr name="rv_strokeWidth"/>
+        <attr name="rv_strokeColor"/>
+        <attr name="rv_strokePressColor"/>
+        <attr name="rv_isRadiusHalfHeight"/>
+        <attr name="rv_isWidthHeightEqual"/>
+        <attr name="rv_cornerRadius_TL"/>
+        <attr name="rv_cornerRadius_TR"/>
+        <attr name="rv_cornerRadius_BL"/>
+        <attr name="rv_cornerRadius_BR"/>
+        <attr name="rv_isRippleEnable"/>
+    </declare-styleable>
+
+    <declare-styleable name="RoundRelativeLayout">
+        <attr name="rv_backgroundColor"/>
+        <attr name="rv_backgroundPressColor"/>
+        <attr name="rv_cornerRadius"/>
+        <attr name="rv_strokeWidth"/>
+        <attr name="rv_strokeColor"/>
+        <attr name="rv_strokePressColor"/>
+        <attr name="rv_isRadiusHalfHeight"/>
+        <attr name="rv_isWidthHeightEqual"/>
+        <attr name="rv_cornerRadius_TL"/>
+        <attr name="rv_cornerRadius_TR"/>
+        <attr name="rv_cornerRadius_BL"/>
+        <attr name="rv_cornerRadius_BR"/>
+        <attr name="rv_isRippleEnable"/>
+    </declare-styleable>
+
+    <declare-styleable name="RoundFrameLayout">
+        <attr name="rv_backgroundColor"/>
+        <attr name="rv_backgroundPressColor"/>
+        <attr name="rv_cornerRadius"/>
+        <attr name="rv_strokeWidth"/>
+        <attr name="rv_strokeColor"/>
+        <attr name="rv_strokePressColor"/>
+        <attr name="rv_isRadiusHalfHeight"/>
+        <attr name="rv_isWidthHeightEqual"/>
+        <attr name="rv_cornerRadius_TL"/>
+        <attr name="rv_cornerRadius_TR"/>
+        <attr name="rv_cornerRadius_BL"/>
+        <attr name="rv_cornerRadius_BR"/>
+        <attr name="rv_isRippleEnable"/>
+    </declare-styleable>
+
+    <declare-styleable name="RoundButton">
+        <attr name="rv_backgroundColor"/>
+        <attr name="rv_backgroundPressColor"/>
+        <attr name="rv_cornerRadius"/>
+        <attr name="rv_strokeWidth"/>
+        <attr name="rv_strokeColor"/>
+        <attr name="rv_strokePressColor"/>
+        <attr name="rv_isRadiusHalfHeight"/>
+        <attr name="rv_isWidthHeightEqual"/>
+        <attr name="rv_cornerRadius_TL"/>
+        <attr name="rv_cornerRadius_TR"/>
+        <attr name="rv_cornerRadius_BL"/>
+        <attr name="rv_cornerRadius_BR"/>
+        <attr name="rv_isRippleEnable"/>
+    </declare-styleable>
+
+    <attr name="SpinKitViewStyle" format="reference"/>
+
+    <declare-styleable name="SpinKitView">
+        <attr name="SpinKit_Style">
+            <enum name="RotatingPlane" value="0"/>
+            <enum name="DoubleBounce" value="1"/>
+            <enum name="Wave" value="2"/>
+            <enum name="WanderingCubes" value="3"/>
+            <enum name="Pulse" value="4"/>
+            <enum name="ChasingDots" value="5"/>
+            <enum name="ThreeBounce" value="6"/>
+            <enum name="Circle" value="7"/>
+            <enum name="CubeGrid" value="8"/>
+            <enum name="FadingCircle" value="9"/>
+            <enum name="FoldingCube" value="10"/>
+            <enum name="RotatingCircle" value="11"/>
+            <enum name="MultiplePulse" value="12"/>
+            <enum name="PulseRing" value="13"/>
+            <enum name="MultiplePulseRing" value="14"/>
+        </attr>
+        <attr name="SpinKit_Color" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="Banner">
+        <attr name="delay_time" format="integer" />
+        <attr name="scroll_time" format="integer" />
+        <attr name="is_auto_play" format="boolean" />
+        <attr name="is_indicator_show" format="boolean"/>
+        <attr name="title_background" format="color|reference" />
+        <attr name="title_textcolor" format="color" />
+        <attr name="title_textsize" format="dimension" />
+        <attr name="title_height" format="dimension" />
+        <attr name="indicator_width" format="dimension" />
+        <attr name="indicator_height" format="dimension" />
+        <attr name="indicator_margin" format="dimension" />
+        <attr name="indicator_drawable_selected" format="reference" />
+        <attr name="indicator_drawable_unselected" format="reference" />
+        <attr name="banner_layout" format="reference"/>
+        <attr name="banner_default_image" format="reference"/>
+        <attr name="image_scale_type" format="enum">
+            <enum name="center" value="0" />
+            <enum name="center_crop" value="1" />
+            <enum name="center_inside" value="2" />
+            <enum name="fit_center" value="3" />
+            <enum name="fit_end" value="4" />
+            <enum name="fit_start" value="5" />
+            <enum name="fit_xy" value="6" />
+            <enum name="matrix" value="7" />
+        </attr>
+        <!--<attr name="indicator_animator" format="reference" />-->
+        <!--<attr name="indicator_animator_reverse" format="reference" />-->
+    </declare-styleable>
+</resources>

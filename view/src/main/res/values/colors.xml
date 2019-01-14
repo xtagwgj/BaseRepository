@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="green">#008000</color>
+    <color name="sort_catagory">#FFE0E0E0</color>
+    <color name="color_text_01">#ffc5c9ce</color>
+    <color name="color_text_02">#ff181c20</color>
+    <color name="text_color_02">#FF6C6C6C</color>
+    <color name="split_line_color">#ffc9d1d9</color>
+    <color name="input_stock">#ffbdc7d8</color>
+</resources>

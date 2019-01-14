@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="BaseTheme">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- 启动页面的主题 有白色背景，最好使用图片替代-->
+    <style name="SplashTheme" parent="_SplashTheme">
+        <!-- 可修改启动页面的图片 -->
+        <item name="android:windowBackground">@mipmap/bg_login</item>
+    </style>
+
+</resources>

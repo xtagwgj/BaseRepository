@@ -1,4 +1,4 @@
-package com.xtagwgj.basedemo
+package com.xtagwgj.basedemo.base
 
 import android.app.Activity
 import android.os.Build
@@ -8,9 +8,13 @@ import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.xtagwgj.base.AppManager
 import com.xtagwgj.base._LifecycleCallBack
+import com.xtagwgj.basedemo.MainActivity
+import com.xtagwgj.basedemo.R
+import com.xtagwgj.basedemo.SplashActivity
 
 /**
  * 处理各个页面的共有操作
+ *
  * Created by xtagwgj on 2019/1/9
  */
 class LifecycleCallBack : _LifecycleCallBack() {

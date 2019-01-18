@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tl="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -9,6 +10,41 @@
     tools:context=".MainActivity">
 
     <include layout="@layout/include_title" />
+
+    <fragment
+        android:id="@+id/fragment"
+        android:name="com.xtagwgj.basedemo.SpeechFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!--<com.xtagwgj.view.CustomViewPager-->
+    <!--android:id="@+id/view_pager"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="0dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:background="#F2F2F2" />-->
+
+    <!--<View-->
+    <!--android:id="@+id/viewSplit"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="1dp"-->
+    <!--android:background="#e7e7e7" />-->
+
+    <!--<com.flyco.tablayout.CommonTabLayout-->
+    <!--android:id="@+id/tabLayout"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="55dp"-->
+    <!--android:background="#FFFFFF"-->
+    <!--tl:tl_iconHeight="25dp"-->
+    <!--tl:tl_iconMargin="2dp"-->
+    <!--tl:tl_iconWidth="23dp"-->
+    <!--tl:tl_indicator_color="@color/colorAccent"-->
+    <!--tl:tl_indicator_height="0dp"-->
+    <!--tl:tl_textSelectColor="#0061aa"-->
+    <!--tl:tl_textUnselectColor="#999999"-->
+    <!--tl:tl_textsize="13sp"-->
+    <!--tl:tl_underline_color="#999999"-->
+    <!--tl:tl_underline_height="1dp" />-->
 
 
 </LinearLayout>

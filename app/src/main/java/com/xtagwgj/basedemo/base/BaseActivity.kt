@@ -1,4 +1,4 @@
-package com.xtagwgj.basedemo
+package com.xtagwgj.basedemo.base
 
 import androidx.lifecycle.Observer
 import com.blankj.utilcode.util.StringUtils
@@ -22,7 +22,7 @@ abstract class BaseActivity<T : _ViewModel?> : _Activity<T>() {
     override fun initViewModel() {
         super.initViewModel()
 
-        //
+        //Toast
         mViewModel?.toast?.observe(this, Observer {
             ToastUtil.showToast(this, it)
         })

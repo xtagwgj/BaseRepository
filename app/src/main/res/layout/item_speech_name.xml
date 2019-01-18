@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xtagwgj.view.roundview.RoundTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/typeText"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingTop="6dp"
+    android:paddingBottom="6dp"
+    android:text="表情话术"
+    android:textColor="#B1B1B1"
+    android:textSize="12sp"
+    app:rv_backgroundColor="@android:color/white"
+    app:rv_backgroundPressColor="#ccffffff"
+    app:rv_cornerRadius="6dp"
+    app:rv_strokeColor="#CACACA"
+    app:rv_strokeWidth="1dp" />

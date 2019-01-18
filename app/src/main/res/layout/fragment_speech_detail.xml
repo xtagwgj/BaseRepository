@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F0F0"
+    android:orientation="vertical"
+    tools:context=".SpeechDetailFragment">
+
+    <com.xtagwgj.view.roundview.RoundFrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        app:rv_backgroundColor="@android:color/white"
+        app:rv_isRadiusHalfHeight="true">
+
+        <com.xtagwgj.view.CleanableEditView
+            android:id="@+id/etSearch"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@null"
+            android:drawableRight="@mipmap/input_close"
+            android:gravity="center"
+            android:hint="点击搜索聊天话术"
+            android:maxLines="1"
+            android:textColor="#B2B2B2"
+            android:textSize="12sp" />
+
+    </com.xtagwgj.view.roundview.RoundFrameLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/mSpeechDetailRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/item_speech_detail" />
+
+</LinearLayout>

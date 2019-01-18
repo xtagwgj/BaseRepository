@@ -17,6 +17,19 @@ android {
         versionCode 1
         versionName "1.0.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        javaCompileOptions {
+            annotationProcessorOptions {
+                //room的数据库概要、记录
+                arguments = ["room.schemaLocation":
+                                     "$projectDir/schemas".toString()]
+            }
+        }
+    }
+
+    sourceSets {
+        //数据库概要、记录存放位置
+        androidTest.assets.srcDirs += files("$projectDir/schemas".toString())
     }
 
     buildTypes {
@@ -38,4 +51,18 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
     implementation project(path: ':base')
     implementation project(path: ':view')
+
+    //底部导航栏
+    implementation "com.flyco.tablayout:FlycoTabLayout_Lib:2.1.2@aar"
+
+    def room_version = "2.1.0-alpha03"
+    implementation "androidx.room:room-runtime:$room_version"
+    annotationProcessor "androidx.room:room-compiler:$room_version"
+    implementation "androidx.room:room-rxjava2:$room_version"
+
+    def paging_version = "2.1.0-rc01"
+    implementation "androidx.paging:paging-runtime:$paging_version" // use -ktx for Kotlin
+    implementation "androidx.paging:paging-rxjava2:$paging_version" // use -ktx for Kotlin
+
+    implementation "com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.34"
 }

@@ -2,4 +2,6 @@
     <string name="app_name">Octopus</string>
 
     <string name="text_tab_chat">话术</string>
+    <string name="title_test">测试页面</string>
+    <string name="title_speech">话术库</string>
 </resources>

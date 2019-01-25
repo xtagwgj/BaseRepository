@@ -1,4 +1,4 @@
-package com.xtagwgj.base.view.citylist.sortlistview
+package com.xtagwgj.view.citylist.sortlistview
 
 /**
  * Java汉字转换为拼音
@@ -14,7 +14,7 @@ object CharacterParser {
     var resource: String? = null
 
     val spelling: String
-        get() = this.getSelling(this.resource)
+        get() = getSelling(resource)
 
     /** * 汉字转成ASCII码 * * @param chs * @return  */
     private fun getChsAscii(chs: String): Int {

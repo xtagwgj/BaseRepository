@@ -12,7 +12,6 @@ import android.widget.AdapterView
 import android.widget.ListView
 import android.widget.TextView
 import androidx.fragment.app.Fragment
-import com.xtagwgj.base.view.citylist.sortlistview.CharacterParser
 import com.xtagwgj.view.CleanableEditView
 import com.xtagwgj.view.R
 import com.xtagwgj.view.citylist.sortlistview.*
